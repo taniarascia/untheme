@@ -1,15 +1,15 @@
 # untheme
 
-> Base theme for development
+### Base theme for WordPress development
 
 Untheme is a clean, empty base theme for developers. It supports and includes an example for navigation, a widget sidebar, pagination, and a custom post type - all without plugins!
 
-### Installation
+## Installation
 
 1. Upload the contents of this repository to a new directory in `wp-content/themes`.
 1. Click "Activate".
 
-### Settings
+## Settings
 
 For optimized WordPress settings, follow these steps.
 
