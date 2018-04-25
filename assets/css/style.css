@@ -1,0 +1,156 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	color: #404040;
+	background: white;
+	font-size: 1rem;
+	font-family: sans-serif;
+	line-height: 1.6;
+}
+
+a {
+	color: #3BA9FC;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #F7C243;
+}
+
+h1, h2, h3 {
+	color: #111;
+	line-height: 1.2;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+.site-header {
+	max-width: 1000px;
+	margin: 0 auto;
+	color: #555;
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #e8e8f0;
+	margin-bottom: 35px;
+}
+
+.site-title {
+	margin: 0;
+	font-size: 1.4rem;
+}
+
+.main-navigation .menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.main-navigation .menu a {
+	display: block;
+	color: #666;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.main-navigation .menu a:hover {
+	color: #6EDEC4;
+}
+
+.site-content {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 2.5fr 1fr;
+	grid-gap: 10px;
+	min-height: calc(100vh - 205px);
+}
+
+.site-footer {
+	margin: 0 auto;
+	padding: 30px 15px;
+	background: #F8F8FB;
+	border-top: 1px solid #e8e8f0;
+	text-align: center;
+}
+
+.entry {
+	margin-bottom: 35px;
+}
+
+.entry-header a {
+	color: #111;
+	font-size: 2rem;
+}
+
+.widget {
+	padding: 2rem;
+	border-radius: 6px;
+	background: linear-gradient(to bottom right, #896EFA, #41A3CD);
+	color: white;
+	box-shadow: 5px 10px 20px rgba(0,0,0,.1);
+	margin-bottom: 20px;
+}
+
+.widget h2 {
+	margin-top: 0;
+	color: white;
+	font-size: 1rem;
+}
+
+.widget a {
+	color: rgba(255,255,255,.8);
+}
+
+.comment {
+	padding: 20px 0;
+	margin: 20px 0;
+	border-bottom: 1px solid #e8e8f0;
+}
+
+.comment-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.avatar {
+	display: inline-flex;
+	margin-right: 15px;
+}
+
+.says {
+	display: none;
+}
+
+.comment-author {
+	display: flex;
+    align-items: center;
+}
+
+.comment-meta {
+	display: flex;
+	align-items: center;
+}
+
+.comment-metadata a {
+	padding: 0 0 0 15px;
+	color: #888;
+	font-size: .9rem;
+}
+
+.reply a {
+	color: #888;
+	font-size: .9rem;
+}

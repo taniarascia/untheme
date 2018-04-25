@@ -57,7 +57,8 @@ add_action( 'widgets_init', 'untheme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function untheme_scripts() {
-	wp_enqueue_style( 'untheme-style', get_template_directory_uri() . '/assets/css/style.css' );
+	wp_enqueue_style( 'untheme-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'untheme-custom-style', get_template_directory_uri() . '/assets/css/style.css' );
 	wp_enqueue_script( 'untheme-scripts', get_template_directory_uri() . '/assets/js/scripts.js' );
 }
 add_action( 'wp_enqueue_scripts', 'untheme_scripts' );
