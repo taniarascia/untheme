@@ -14,7 +14,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 	
 <a class="screen-reader-text" href="#content">Skip to content</a>
 
