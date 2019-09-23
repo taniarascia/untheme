@@ -268,3 +268,11 @@ function untheme_create_post_custom_post() {
 	));
 }
 add_action('init', 'untheme_create_post_custom_post'); // Add our work type
+
+
+function custom_upload_mimes ( $existing_mimes ) {
+    $existing_mimes['dotx'] = 'application/vnd.openxmlformats-officedocument.wordprocessingml.template';
+    return $existing_mimes;
+}
+ 
+add_filter('upload_mimes', 'custom_upload_mimes');
