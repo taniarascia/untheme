@@ -18,7 +18,7 @@
 	
 <a class="screen-reader-text" href="#content">Skip to content</a>
 
-<header class="site-header">
+<header class="site-header test">
 	<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
 
 	<nav class="main-navigation">
